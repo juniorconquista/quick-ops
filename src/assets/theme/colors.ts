@@ -10,9 +10,16 @@ const colors = (dark = false) => ({
     },
     get background() {
         return {
-            default: this.dark ? '#f4f6fa' : '#f4f6fa',
-            dark: '#f4f6fa',
+            default: this.dark ? '#2d2e32' : '#f4f6fa',
+            dark: '#2d2e32',
             ligth: '#f4f6fa',
+        };
+    },
+    get white() {
+        return {
+            default: this.dark ? '#25262a' : '#FFFFFF',
+            dark: '#2d2e32',
+            ligth: '#FFFFFF',
         };
     },
     get text() {

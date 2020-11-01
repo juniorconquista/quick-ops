@@ -13,6 +13,9 @@ const GlobalStyle = createGlobalStyle`
         props.theme.fontFamily};
     color: ${(props: { theme: { fontFamily: string; color: string } }) =>
         props.theme.color};
+    background-color: ${(props: {
+        theme: { fontFamily: string; color: string; bg: string };
+    }) => props.theme.bg};
   }
 `;
 
@@ -46,6 +49,7 @@ const App: React.FC = () => {
                 toggleTheme: toggleMode,
                 fontFamily: 'Nunito Sans, sans-serif',
                 color: theme.colors.text.default,
+                bg: theme.colors.background.default,
             }}
         >
             <Router basename={process.env.PUBLIC_URL}>
