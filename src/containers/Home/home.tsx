@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Box } from 'quarks-ui';
 
-import { ReactComponent as Receipt } from '../../assets/icons/receipt.svg';
+import { ReactComponent as Notes } from '../../assets/icons/notes.svg';
+import { ReactComponent as Notepad } from '../../assets/icons/notepad.svg';
 
 import Breadcrumb from '../../components/Breadcrumb';
 import Header from '../Header';
@@ -47,11 +48,12 @@ const Home: React.FC = () => {
                             styling="base"
                             mr="10px"
                             text="Inserir notas em lote"
+                            icon={<Notepad />}
                         />
                         <Button
                             styling="base"
                             text="Nova despesa"
-                            icon={<Receipt />}
+                            icon={<Notes />}
                         />
                     </Box>
                 </Box>
