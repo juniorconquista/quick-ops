@@ -1,9 +1,12 @@
 import React, { memo, useState } from 'react';
 import classnames from 'classnames';
 import styled from 'styled-components';
-import { variant, VariantArgs } from 'styled-system';
+import { variant, VariantArgs, space } from 'styled-system';
 
 import { ToggleProps } from './toogle.types';
+
+/* TODO This component was created in the local repository as it has not yet been 
+implemented in lib Quarks UI, however in the future it can be changed to be used directly from lib. */
 
 const variants = variant({
     prop: 'styling',
@@ -116,30 +119,38 @@ const variants = variant({
 
 const Style: React.FC<ToggleProps> = styled.div<ToggleProps>`
     ${variants}
+    ${space}
 `;
 
-const Toggle: React.FC<ToggleProps> = (props) => {
-    const [checked, setChecked] = useState(props.checked ?? true);
+const Toggle: React.FC<ToggleProps> = ({
+    checked,
+    onClick,
+    iconCheck,
+    iconX,
+    styling,
+    ...props
+}) => {
+    const [isChecked, setChecked] = useState(checked ?? true);
     const handleChecked = () => setChecked((prevState) => !prevState);
 
     return (
-        <Style styling={props.styling ?? 'base'}>
+        <Style styling={styling ?? 'base'} {...props}>
             <button
                 className={classnames({
                     toggle: true,
-                    checked,
+                    checked: isChecked,
                 })}
                 onClick={() => {
                     handleChecked();
-                    props.onClick && props.onClick();
+                    onClick && onClick();
                 }}
             >
                 <div className="toggle-track">
                     <div className="toggle-track-check">
-                        <span className="toggle_BsTx">🌞</span>
+                        <span className="toggle_BsTx">{iconCheck}</span>
                     </div>
                     <div className="toggle-track-x">
-                        <span className="toggle_BsTx">🌜</span>
+                        <span className="toggle_BsTx">{iconX}</span>
                     </div>
                 </div>
                 <div className="toggle-thumb" />

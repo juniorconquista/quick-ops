@@ -11,6 +11,7 @@ const colors = (dark = false) => ({
     get background() {
         return {
             default: this.dark ? '#2d2e32' : '#f4f6fa',
+            contrast: this.dark ? '#202121' : '#f0f3f7',
             dark: '#2d2e32',
             ligth: '#f4f6fa',
         };
