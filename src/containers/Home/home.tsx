@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { Box } from 'quarks-ui';
 
+import { ReactComponent as Notes } from '../../assets/icons/notes.svg';
+import { ReactComponent as Notepad } from '../../assets/icons/notepad.svg';
+
 import Breadcrumb from '../../components/Breadcrumb';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
+import Button from '../../components/Button';
 
 const Home: React.FC = () => {
     const [isOpenSidebar, setIsOpenSidebar] = useState(false);
@@ -34,6 +38,24 @@ const Home: React.FC = () => {
                     p={{ mobile: '12px', tablet: '24px', desktop: '24px 54px' }}
                 >
                     <Header />
+                    <Box
+                        styling="row"
+                        mt="20px"
+                        width="100%"
+                        justifyContent="flex-end"
+                    >
+                        <Button
+                            styling="base"
+                            mr="10px"
+                            text="Inserir notas em lote"
+                            icon={<Notepad />}
+                        />
+                        <Button
+                            styling="base"
+                            text="Nova despesa"
+                            icon={<Notes />}
+                        />
+                    </Box>
                 </Box>
                 <Sidebar isOpen={isOpenSidebar} />
             </Box>
