@@ -42,6 +42,12 @@ const App: React.FC = () => {
         setThemeModColor(themeModeStorage);
     }, []);
 
+    // @ts-ignore
+    theme.breakpoints.desktop = '68rem';
+    theme.breakpoints[2] = '68rem';
+
+    // console.log(theme.breakpoints.desktop)
+
     return (
         <ThemeProvider
             theme={{

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { State } from './useWindowSize.types';
 
-const BREAKPOINT_MOBILE = 992;
+const BREAKPOINT_MOBILE = 1088;
 
 const useWindowSize = () => {
     const [windowSize, setWindowSize] = useState<State>({

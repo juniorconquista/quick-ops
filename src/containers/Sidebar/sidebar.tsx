@@ -29,8 +29,9 @@ const variants = variant({
             },
             '.mobile': {
                 top: 48,
-                right: '-393px',
+                right: '-350px',
                 position: 'fixed',
+                width: '350px',
             },
             '.mobile.open': {
                 right: '0',
@@ -56,7 +57,7 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
                     open: size.isMobile && props.isOpen,
                 })}
             >
-                <Box styling="row" p="40px 23px">
+                <Box styling="row" p="40px 0px">
                     <Status />
                 </Box>
             </div>
