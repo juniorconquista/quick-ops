@@ -7,6 +7,7 @@ import { ReactComponent as Notepad } from '../../assets/icons/notepad.svg';
 import Breadcrumb from '../../components/Breadcrumb';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
+import Dispense from '../Dispense';
 import Button from '../../components/Button';
 
 const Home: React.FC = () => {
@@ -27,7 +28,7 @@ const Home: React.FC = () => {
                 gridTemplateColumns={{
                     mobile: '100%',
                     tablet: '100%',
-                    desktop: 'calc(100% - 393px) 393px',
+                    desktop: 'calc(100% - 350px) 350px',
                 }}
             >
                 <Box
@@ -56,6 +57,7 @@ const Home: React.FC = () => {
                             icon={<Notes />}
                         />
                     </Box>
+                    <Dispense />
                 </Box>
                 <Sidebar isOpen={isOpenSidebar} />
             </Box>

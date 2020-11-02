@@ -33,13 +33,16 @@ const colors = (dark = false) => ({
     get white() {
         return {
             default: this.dark ? '#25262a' : '#FFFFFF',
+            contrast: this.dark ? '#313438' : '#fafbfc',
             dark: '#2d2e32',
             ligth: '#FFFFFF',
         };
     },
+
     get text() {
         return {
             default: this.dark ? '#f8f9fa' : '#545b64',
+            contrast: this.dark ? '#FFFFFF' : '#353a40',
             dark: '#f8f9fa',
             light: '#545b64',
         };

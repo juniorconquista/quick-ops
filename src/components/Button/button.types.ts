@@ -1,8 +1,9 @@
-import { ReactNode } from 'react';
+import { HTMLProps, ReactNode } from 'react';
 import { ColorProps, SpaceProps } from 'styled-system';
 
 export type ButtonStyledProps = ColorProps &
-    SpaceProps & {
+    SpaceProps &
+    HTMLProps<HTMLButtonElement> & {
         /** Each styling variant has unique properties that are inherited through the type informed */
         styling?: 'base' | 'success' | 'danger';
         outline?: boolean;
