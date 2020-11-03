@@ -15,7 +15,7 @@ const Breadcrumb: React.FC<BreadcrumbProps> = (props) => {
             width="100%"
             bg="background.contrast"
             justifyContent="space-between"
-            p={{ tablet: '12px', desktop: '12px 28px' }}
+            p={{ mobile: '15px', tablet: '15px', desktop: '12px 28px' }}
         >
             <Box styling="row">
                 <P styling="base" color="primary.default">

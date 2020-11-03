@@ -40,16 +40,15 @@ const variants = variant({
             },
         },
         get success() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 label: {
-                    // @ts-ignore
-                    ...this.base.label,
+                    ...base.label,
                     color: 'success.default',
                 },
                 input: {
-                    // @ts-ignore
-                    ...this.base.input,
+                    ...base.input,
                     borderColor: 'success.default',
                     color: 'success.default',
                     '&:hover, &:focus': {
@@ -62,16 +61,15 @@ const variants = variant({
             };
         },
         get danger() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 label: {
-                    // @ts-ignore
-                    ...this.base.label,
+                    ...base.label,
                     color: 'danger.default',
                 },
                 input: {
-                    // @ts-ignore
-                    ...this.base.input,
+                    ...base.input,
                     borderColor: 'danger.default',
                     color: 'danger.default',
                     '&:hover, &:focus': {

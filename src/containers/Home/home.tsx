@@ -36,7 +36,7 @@ const Home: React.FC = () => {
                     minHeight="100%"
                     padding="24px 54px"
                     justifyContent="flex-start"
-                    p={{ mobile: '12px', tablet: '24px', desktop: '24px 54px' }}
+                    p={{ mobile: '15px', tablet: '24px', desktop: '24px 54px' }}
                 >
                     <Header />
                     <Box

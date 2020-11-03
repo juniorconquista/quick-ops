@@ -38,6 +38,7 @@ const variants = variant({
                 borderColor: '#dfe2e6',
                 fontFamily: 'Nunito Sans, sans-serif',
                 height: '36px',
+                transition: 'inherit',
                 '&:hover': {
                     boxShadow: '0 0 2px 3px #6b748090',
                     outline: 'none',
@@ -62,6 +63,7 @@ const variants = variant({
                 border: '1px solid',
                 borderColor: '#dfe2e6',
                 marginTop: '4px',
+                overflow: 'hidden',
             },
             '.select__menu-list': {
                 color: '#6b7480',
@@ -84,103 +86,73 @@ const variants = variant({
             },
         },
         get success() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 '.select__input': {
-                    // @ts-ignore
-                    ...this.base['.select__input'],
+                    ...base['.select__input'],
                     color: 'success.default',
                 },
                 '.select__control': {
-                    // @ts-ignore
-                    ...this.base['.select__control'],
+                    ...base['.select__control'],
                     borderColor: 'success.default',
                     '&:hover': {
-                        // @ts-ignore
-                        ...this.base['.select__control']['&:hover'],
+                        ...base['.select__control']['&:hover'],
                         borderColor: 'success.default',
                         boxShadow: (props: {
                             colors: { success: { default: string } };
                         }) => `0 0 2px 3px ${props.colors.success.default}90`,
                     },
                 },
-                '.select__placeholder': {
-                    // @ts-ignore
-                    ...this.base['.select__placeholder'],
-                    color: 'success.default',
-                },
-                '.select__single-value': {
-                    // @ts-ignore
-                    ...this.base['.select__single-value'],
-                    color: 'success.default',
-                },
                 '.select__control--is-focused': {
-                    // @ts-ignore
-                    ...this.base['.select__control--is-focused'],
+                    ...base['.select__control--is-focused'],
                     borderColor: 'success.default',
                     boxShadow: (props: {
                         colors: { success: { default: string } };
                     }) => `0 0 2px 3px ${props.colors.success.default}90`,
                 },
                 '.select__menu': {
-                    // @ts-ignore
-                    ...this.base['.select__menu'],
+                    ...base['.select__menu'],
                     borderColor: 'success.default',
                 },
                 '.select__menu-list': {
-                    // @ts-ignore
-                    ...this.base['.select__menu-list'],
+                    ...base['.select__menu-list'],
                     color: 'success.default',
                 },
             };
         },
         get danger() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 '.select__input': {
-                    // @ts-ignore
-                    ...this.base['.select__input'],
+                    ...base['.select__input'],
                     color: 'danger.default',
                 },
                 '.select__control': {
-                    // @ts-ignore
-                    ...this.base['.select__control'],
+                    ...base['.select__control'],
                     borderColor: 'danger.default',
                     '&:hover': {
-                        // @ts-ignore
-                        ...this.base['.select__control']['&:hover'],
+                        ...base['.select__control']['&:hover'],
                         borderColor: 'danger.default',
                         boxShadow: (props: {
                             colors: { danger: { default: string } };
                         }) => `0 0 2px 3px ${props.colors.danger.default}90`,
                     },
                 },
-                '.select__placeholder': {
-                    // @ts-ignore
-                    ...this.base['.select__placeholder'],
-                    color: 'danger.default',
-                },
-                '.select__single-value': {
-                    // @ts-ignore
-                    ...this.base['.select__single-value'],
-                    color: 'danger.default',
-                },
                 '.select__control--is-focused': {
-                    // @ts-ignore
-                    ...this.base['.select__control--is-focused'],
+                    ...base['.select__control--is-focused'],
                     borderColor: 'danger.default',
                     boxShadow: (props: {
                         colors: { danger: { default: string } };
                     }) => `0 0 2px 3px ${props.colors.danger.default}90`,
                 },
                 '.select__menu': {
-                    // @ts-ignore
-                    ...this.base['.select__menu'],
+                    ...base['.select__menu'],
                     borderColor: 'danger.default',
                 },
                 '.select__menu-list': {
-                    // @ts-ignore
-                    ...this.base['.select__menu-list'],
+                    ...base['.select__menu-list'],
                     color: 'danger.default',
                 },
             };
@@ -212,6 +184,7 @@ const Select: React.FC<SelectProps> = ({
                 // htmlFor={name}
                 m="12px 0px"
                 fontWeight="bold"
+                color="text.contrast"
             >
                 {label}
             </Label>
