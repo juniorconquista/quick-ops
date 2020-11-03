@@ -33,12 +33,6 @@ const variants = variant({
                 width: '100%',
                 transition: 'boxShadow .25s ease',
                 fontFamily: 'Nunito Sans, sans-serif',
-                // svg: {
-                //     height: '15px',
-                //     width: '15px',
-                //     mr: '5px',
-                //     fill: '#6b7480',
-                // },
                 '&:hover, &:focus': {
                     boxShadow: '0 0 2px 3px #6b748090',
                     outline: 'none',

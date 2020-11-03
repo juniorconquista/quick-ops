@@ -5,6 +5,7 @@ import { css } from 'styled-components';
 
 import Button from '../../../components/Button';
 import Input from '../../../components/Input';
+import Select from '../../../components/Select';
 import { schema } from './form.structure';
 
 const Dispense: React.FC = () => (
@@ -57,12 +58,16 @@ const Dispense: React.FC = () => (
                 >
                     <Field name="type">
                         {({ field, meta }: FieldProps) => (
-                            <Input
+                            <Select
                                 styling={meta.error ? 'danger' : 'base'}
                                 placeholder="Selecione"
                                 label="Tipo*"
+                                options={[
+                                    { label: 'Option 1', value: 'option1' },
+                                    { label: 'Option 2', value: 'option2' },
+                                    { label: 'Option 3', value: 'option3' },
+                                ]}
                                 name={field.name}
-                                value={field.value}
                                 onChange={field.onChange}
                                 onBlur={field.onBlur}
                                 error={meta.error}
@@ -83,6 +88,41 @@ const Dispense: React.FC = () => (
                             />
                         )}
                     </Field>
+                    <Box
+                        styling="grid"
+                        gridTemplateColumns="repeat(2, 1fr)"
+                        gridGap={10}
+                        width="100%"
+                    >
+                        <Field name="title">
+                            {({ field, meta }: FieldProps) => (
+                                <Input
+                                    styling={meta.error ? 'danger' : 'base'}
+                                    placeholder="name@example.com"
+                                    label="Título da despesa*"
+                                    name={field.name}
+                                    value={field.value}
+                                    onChange={field.onChange}
+                                    onBlur={field.onBlur}
+                                    error={meta.error}
+                                />
+                            )}
+                        </Field>
+                        <Field name="title">
+                            {({ field, meta }: FieldProps) => (
+                                <Input
+                                    styling={meta.error ? 'danger' : 'base'}
+                                    placeholder="name@example.com"
+                                    label="Título da despesa*"
+                                    name={field.name}
+                                    value={field.value}
+                                    onChange={field.onChange}
+                                    onBlur={field.onBlur}
+                                    error={meta.error}
+                                />
+                            )}
+                        </Field>
+                    </Box>
                 </Box>
             </Box>
             <Box
