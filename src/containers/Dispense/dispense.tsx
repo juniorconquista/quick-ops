@@ -19,9 +19,8 @@ const Dispense: React.FC = () => (
             color="text.contrast"
             fontWeight="bold"
             fontSize={20}
-            mb="12px"
-            p="0px 48px"
-            pt="24px"
+            p={{ mobile: '0px 15px', tablet: '0px 15px', desktop: '0px 48px' }}
+            pt={{ mobile: '15px', tablet: '15px', desktop: '24px' }}
         >
             Nova despesa
         </H1>
