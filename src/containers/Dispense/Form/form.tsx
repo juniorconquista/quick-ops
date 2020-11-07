@@ -61,24 +61,21 @@ const Dispense: React.FC = () => (
                                 field,
                                 form: { setFieldValue },
                                 meta,
-                            }: FieldProps) => {
-                                console.log('field', field);
-                                return (
-                                    <Upload
-                                        styling={
-                                            meta.touched && meta.error
-                                                ? 'danger'
-                                                : 'base'
-                                        }
-                                        label="Recibo, cupom ou nota fiscal*"
-                                        name={field.name}
-                                        error={meta.touched && meta.error}
-                                        onChange={(value) =>
-                                            setFieldValue('resourceUrl', value)
-                                        }
-                                    />
-                                );
-                            }}
+                            }: FieldProps) => (
+                                <Upload
+                                    styling={
+                                        meta.touched && meta.error
+                                            ? 'danger'
+                                            : 'base'
+                                    }
+                                    label="Recibo, cupom ou nota fiscal*"
+                                    name={field.name}
+                                    error={meta.touched && meta.error}
+                                    onChange={(value) =>
+                                        setFieldValue('resourceUrl', value)
+                                    }
+                                />
+                            )}
                         </Field>
                     </Box>
                 </Box>

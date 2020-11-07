@@ -5,7 +5,6 @@ import { theme } from 'quarks-ui';
 
 import colors from './assets/theme/colors';
 import Routes from './routes';
-// import Provider from './store';
 import './assets/style/reset.css';
 
 const GlobalStyle = createGlobalStyle`
@@ -58,10 +57,8 @@ const App: React.FC = () => {
             }}
         >
             <Router basename={process.env.PUBLIC_URL}>
-                {/* <Provider> */}
                 <Routes />
                 <GlobalStyle />
-                {/* </Provider> */}
             </Router>
         </ThemeProvider>
     );

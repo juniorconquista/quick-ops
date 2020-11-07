@@ -9,6 +9,7 @@ import Header from '../Header';
 import Sidebar from '../Sidebar';
 import Dispense from '../Dispense';
 import Button from '../../components/Button';
+import Timeline from '../Timeline';
 
 const Home: React.FC = () => {
     const [isOpenSidebar, setIsOpenSidebar] = useState(false);
@@ -58,6 +59,7 @@ const Home: React.FC = () => {
                         />
                     </Box>
                     <Dispense />
+                    <Timeline />
                 </Box>
                 <Sidebar isOpen={isOpenSidebar} />
             </Box>
