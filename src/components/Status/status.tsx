@@ -5,18 +5,19 @@ const Status: React.FC = () => (
     <Box
         styling="column"
         minHeight="86px"
-        width="100%"
+        width="80%"
+        minWidth="250px"
         border="1px solid"
         borderRadius="6px"
-        borderColor="#6b7480"
-        bg="#f0f3f7"
+        borderColor="#009d43"
+        bg="#edfff5"
         p="0px 32px"
     >
-        <H1 styling="light" color="#053d4e" fontSize="16px" mb="8px">
+        <H1 styling="light" color="#009d43" fontSize="16px" mb="8px">
             Status
         </H1>
-        <H2 styling="base" color="#053d4e" fontSize="20px" fontWeight="bold">
-            Aguardando financeiro
+        <H2 styling="base" color="#009d43" fontSize="20px" fontWeight="bold">
+            Concluído
         </H2>
     </Box>
 );

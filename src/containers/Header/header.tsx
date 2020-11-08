@@ -20,7 +20,7 @@ const Header: React.FC = () => {
     );
 
     // useEffect(() => { execute() }, []);  // eslint-disable-line react-hooks/exhaustive-deps
-    console.log(value);
+
     return (
         <Box
             styling="column"
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                     'linear-gradient(to right, #00d7ce 3%, #00c5fc)',
             })}
         >
-            <H1 styling="base" fontWeight="bold" fontSize="20px">
+            <H1 styling="base" fontWeight="bold" fontSize="20px" color="#FFF">
                 {value?.project.title ?? '-'}
             </H1>
             <Box
