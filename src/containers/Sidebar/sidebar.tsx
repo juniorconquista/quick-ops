@@ -45,6 +45,9 @@ const variants = variant({
                 right: '-350px',
                 position: 'fixed',
                 width: '350px',
+                overflow: 'auto',
+                minHeight: 'inherit',
+                paddingBottom: '30px',
             },
             '.mobile.open': {
                 right: '0',
