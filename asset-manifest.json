@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/quick-ops/static/css/main.251df594.chunk.css",
+    "main.js": "/quick-ops/static/js/main.8ccfe83c.chunk.js",
+    "main.js.map": "/quick-ops/static/js/main.8ccfe83c.chunk.js.map",
+    "runtime-main.js": "/quick-ops/static/js/runtime-main.0f0c7b17.js",
+    "runtime-main.js.map": "/quick-ops/static/js/runtime-main.0f0c7b17.js.map",
+    "static/css/2.95456d05.chunk.css": "/quick-ops/static/css/2.95456d05.chunk.css",
+    "static/js/2.4d34d66c.chunk.js": "/quick-ops/static/js/2.4d34d66c.chunk.js",
+    "static/js/2.4d34d66c.chunk.js.map": "/quick-ops/static/js/2.4d34d66c.chunk.js.map",
+    "static/js/3.59d3cab9.chunk.js": "/quick-ops/static/js/3.59d3cab9.chunk.js",
+    "static/js/3.59d3cab9.chunk.js.map": "/quick-ops/static/js/3.59d3cab9.chunk.js.map",
+    "static/js/4.4fc6480a.chunk.js": "/quick-ops/static/js/4.4fc6480a.chunk.js",
+    "static/js/4.4fc6480a.chunk.js.map": "/quick-ops/static/js/4.4fc6480a.chunk.js.map",
+    "static/js/5.26922e97.chunk.js": "/quick-ops/static/js/5.26922e97.chunk.js",
+    "static/js/5.26922e97.chunk.js.map": "/quick-ops/static/js/5.26922e97.chunk.js.map",
+    "index.html": "/quick-ops/index.html",
+    "static/css/2.95456d05.chunk.css.map": "/quick-ops/static/css/2.95456d05.chunk.css.map",
+    "static/css/main.251df594.chunk.css.map": "/quick-ops/static/css/main.251df594.chunk.css.map",
+    "static/js/2.4d34d66c.chunk.js.LICENSE.txt": "/quick-ops/static/js/2.4d34d66c.chunk.js.LICENSE.txt",
+    "static/js/3.59d3cab9.chunk.js.LICENSE.txt": "/quick-ops/static/js/3.59d3cab9.chunk.js.LICENSE.txt",
+    "static/media/asterisk.585f64c9.svg": "/quick-ops/static/media/asterisk.585f64c9.svg",
+    "static/media/burger.d398000e.svg": "/quick-ops/static/media/burger.d398000e.svg",
+    "static/media/group.a2285b2c.svg": "/quick-ops/static/media/group.a2285b2c.svg",
+    "static/media/hotel-bell.d409c4fe.svg": "/quick-ops/static/media/hotel-bell.d409c4fe.svg",
+    "static/media/menu.0ec1c952.svg": "/quick-ops/static/media/menu.0ec1c952.svg",
+    "static/media/notepad.60ac5003.svg": "/quick-ops/static/media/notepad.60ac5003.svg",
+    "static/media/notes.332e7f48.svg": "/quick-ops/static/media/notes.332e7f48.svg",
+    "static/media/up-arrow.72719530.svg": "/quick-ops/static/media/up-arrow.72719530.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f0c7b17.js",
+    "static/js/3.59d3cab9.chunk.js",
+    "static/css/main.251df594.chunk.css",
+    "static/js/main.8ccfe83c.chunk.js"
+  ]
+}
