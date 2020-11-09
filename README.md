@@ -2,6 +2,8 @@
 
 <img src="https://github.com/juniorconquista/quick-ops/blob/master/badge.svg">
 
+The project is hosted in production in [QuickOps](https://juniorconquista.github.io/quick-ops/)
+
 ## Quick start
 
 Several quick start options are available:
