@@ -9,10 +9,14 @@ import Header from '../Header';
 import Sidebar from '../Sidebar';
 import Dispense from '../Dispense';
 import Button from '../../components/Button';
+import Timeline from '../Timeline';
 
 const Home: React.FC = () => {
     const [isOpenSidebar, setIsOpenSidebar] = useState(false);
     const handleSidebar = () => setIsOpenSidebar((prevState) => !prevState);
+
+    const [isOpenDispense, setIsOpenDispense] = useState(true);
+    const handleDispense = () => setIsOpenDispense((prevState) => !prevState);
 
     return (
         <Box
@@ -55,9 +59,13 @@ const Home: React.FC = () => {
                             styling="base"
                             text="Nova despesa"
                             icon={<Notes />}
+                            onClick={() => setIsOpenDispense(true)}
                         />
                     </Box>
-                    <Dispense />
+                    {isOpenDispense && (
+                        <Dispense handleDispense={handleDispense} />
+                    )}
+                    <Timeline />
                 </Box>
                 <Sidebar isOpen={isOpenSidebar} />
             </Box>
