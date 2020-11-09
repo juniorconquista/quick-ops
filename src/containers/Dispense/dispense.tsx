@@ -14,6 +14,7 @@ const Dispense: React.FC<DispenseProps> = (props) => (
         mt="24px"
         justifyContent="flex-start"
         alignItems="flex-start"
+        position="relative"
     >
         <H1
             styling="base"

@@ -2,24 +2,26 @@ import React, { memo, useEffect } from 'react';
 import { Box, H1, H2 } from 'quarks-ui';
 import { css } from 'styled-components';
 
-import useAsync from '../../hooks/useAsync';
+import useAsync, { headers } from '../../hooks/useAsync';
+import Select from '../../components/Select';
 import Loading from '../../components/Loading';
 import { HeaderResponse } from './header.types';
 import Item from './Item';
-import Select from '../../components/Select';
 
 const Header: React.FC = () => {
     const getHeader = (): Promise<HeaderResponse> =>
-        fetch(`${process.env.REACT_APP_API_URL}/header`).then((response) =>
-            response.json(),
-        );
+        fetch(`${process.env.REACT_APP_API_URL}/header`, {
+            headers,
+        }).then((response) => response.json());
 
     const { execute, status, value } = useAsync<HeaderResponse>(
         getHeader,
         false,
     );
 
-    // useEffect(() => { execute() }, []);  // eslint-disable-line react-hooks/exhaustive-deps
+    useEffect(() => {
+        execute();
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
         <Box

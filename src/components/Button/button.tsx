@@ -87,6 +87,7 @@ const Button: React.FC<ButtonProps> = ({
     styling = 'base',
     text,
     icon,
+    children,
     ...props
 }) => (
     <Style
@@ -94,6 +95,7 @@ const Button: React.FC<ButtonProps> = ({
         color={props.outline ? `${styling}.default` : '#FFFFFF'}
         {...props}
     >
+        {children}
         {icon}
         {text}
     </Style>

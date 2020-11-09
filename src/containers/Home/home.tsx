@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     const [isOpenSidebar, setIsOpenSidebar] = useState(false);
     const handleSidebar = () => setIsOpenSidebar((prevState) => !prevState);
 
-    const [isOpenDispense, setIsOpenDispense] = useState(true);
+    const [isOpenDispense, setIsOpenDispense] = useState(false);
     const handleDispense = () => setIsOpenDispense((prevState) => !prevState);
 
     return (

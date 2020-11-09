@@ -8,7 +8,7 @@ import { ReactComponent as Arrow } from '../../assets/icons/up-arrow.svg';
 import Status from '../../components/Status';
 import Loading from '../../components/Loading';
 import useWindowSize from '../../hooks/useWindowSize';
-import useAsync from '../../hooks/useAsync';
+import useAsync, { headers } from '../../hooks/useAsync';
 
 import {
     SidebarProps,
@@ -25,12 +25,14 @@ const variants = variant({
     prop: 'styling',
     variants: {
         base: {
+            height: '100%',
             '.content': {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'flex-start',
                 alignItems: 'center',
                 minHeight: 'calc(100vh - 48px)',
+                height: '100%',
                 bg: 'white.default',
                 transition: 'right .25s ease',
                 position: 'relative',
@@ -59,9 +61,9 @@ const Style: React.FC<SidebarStyledProps> = styled.div<SidebarStyledProps>`
 
 const Sidebar: React.FC<SidebarProps> = (props) => {
     const getSidebar = (): Promise<SidebarResponse> =>
-        fetch(`${process.env.REACT_APP_API_URL}/sidebar`).then((response) =>
-            response.json(),
-        );
+        fetch(`${process.env.REACT_APP_API_URL}/sidebar`, {
+            headers,
+        }).then((response) => response.json());
 
     const size = useWindowSize();
     const { execute, status, value } = useAsync<SidebarResponse>(
@@ -69,7 +71,9 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
         false,
     );
 
-    // useEffect(() => { execute() }, []);  // eslint-disable-line react-hooks/exhaustive-deps
+    useEffect(() => {
+        execute();
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
         <Style styling="base">

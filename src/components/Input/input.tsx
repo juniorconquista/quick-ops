@@ -92,6 +92,7 @@ const Style: React.FC<InputStyledProps> = styled.div<InputStyledProps>`
 
 const Input: React.FC<InputProps<string>> = ({
     styling = 'base',
+    type = 'text',
     icon,
     placeholder,
     label,
@@ -108,6 +109,7 @@ const Input: React.FC<InputProps<string>> = ({
             name={name}
             id={name}
             value={value}
+            type={type}
             onChange={onChange}
         />
         {error && (

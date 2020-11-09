@@ -2,8 +2,14 @@ import * as Yup from 'yup';
 
 export const schema = Yup.object().shape({
     resourceUrl: Yup.string().required('O campo comprovante é obrigatorio'),
-    expenseTypeCode: Yup.string().required('O campo tipo é obrigatorio'),
-    currencyCode: Yup.string().required('O campo moeda é obrigatorio'),
+    expenseTypeCode: Yup.object().shape({
+        label: Yup.string().required(),
+        value: Yup.string().required('O campo tipo é obrigatorio'),
+    }),
+    currencyCode: Yup.object().shape({
+        label: Yup.string().required(),
+        value: Yup.string().required('O campo moeda é obrigatorio'),
+    }),
     notes: Yup.string().required('O campo titulo da despesa é obrigatorio'),
     cardDate: Yup.string().required(
         'O campo data do comprovante é obrigatorio',
@@ -15,6 +21,7 @@ export const schema = Yup.object().shape({
 });
 
 export const optionsExpenseTypes = [
+    { label: 'Selecione', value: '' },
     { label: 'Taxa de hotel', value: 'hotel-fee' },
     { label: 'Comida', value: 'food' },
     {
@@ -24,6 +31,7 @@ export const optionsExpenseTypes = [
 ];
 
 export const optionsCurrencyCode = [
+    { label: 'Selecione', value: '' },
     { label: 'BRL', value: 'BRL' },
     { label: 'USD', value: 'USD' },
     {

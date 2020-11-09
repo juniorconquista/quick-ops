@@ -5,6 +5,7 @@ import useTheme from 'quarks-ui/lib/hooks/useTheme';
 import { ReactComponent as Menu } from '../../assets/icons/menu.svg';
 import Toggle from '../Toggle';
 import { BreadcrumbProps } from './breadcrumb.types';
+import Button from '../Button';
 
 const Breadcrumb: React.FC<BreadcrumbProps> = (props) => {
     const theme = useTheme();
@@ -41,9 +42,13 @@ const Breadcrumb: React.FC<BreadcrumbProps> = (props) => {
                     styling="row"
                     display={{ tablet: 'flex', desktop: 'none' }}
                 >
-                    <button onClick={props.handleSidebar}>
-                        <Menu height="24px" width="24px" />
-                    </button>
+                    <Button type="button" onClick={props.handleSidebar}>
+                        <Menu
+                            height="24px"
+                            width="24px"
+                            style={{ marginRight: '0px' }}
+                        />
+                    </Button>
                 </Box>
             </Box>
         </Box>

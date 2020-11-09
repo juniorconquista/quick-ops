@@ -111,12 +111,15 @@ const Upload: React.FC<UploadProps<any>> = ({
         FileRejection | undefined
     >(undefined);
 
+    const [file, setFile] = useState<File | undefined>(undefined);
+
     const { getRootProps, getInputProps } = useDropzone({
         accept: 'image/jpeg, image/png',
         maxSize: 8000000,
         multiple: false,
         onDrop: (acceptedFiles) => {
             onChange(acceptedFiles[0]);
+            setFile(acceptedFiles[0]);
             if (fileRejection) {
                 setFileRejection(undefined);
             }
@@ -142,7 +145,10 @@ const Upload: React.FC<UploadProps<any>> = ({
             )}
             <Style styling={styling} {...getRootProps({ refKey: 'innerRef' })}>
                 <input {...getInputProps()} name={name} />
-                <p>Selecione um arquivo do seu computador</p>
+                <p>
+                    {(file && file.name) ||
+                        'Selecione um arquivo do seu computador'}
+                </p>
             </Style>
             <P styling="base" textAlign="left" mt="10px" color="#848a91">
                 A imagem deve estar no formato JPG ou PNG.

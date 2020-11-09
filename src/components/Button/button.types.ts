@@ -10,6 +10,7 @@ export type ButtonStyledProps = ColorProps &
     };
 
 export interface ButtonProps extends ButtonStyledProps {
-    text: string;
+    text?: string;
     icon?: ReactNode;
+    children?: ReactNode;
 }
