@@ -46,8 +46,6 @@ const App: React.FC = () => {
     theme.breakpoints.desktop = '68rem';
     theme.breakpoints[2] = '68rem';
 
-    // console.log(theme.breakpoints.desktop)
-
     return (
         <ThemeProvider
             theme={{

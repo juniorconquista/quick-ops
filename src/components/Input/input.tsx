@@ -33,12 +33,6 @@ const variants = variant({
                 width: '100%',
                 transition: 'boxShadow .25s ease',
                 fontFamily: 'Nunito Sans, sans-serif',
-                // svg: {
-                //     height: '15px',
-                //     width: '15px',
-                //     mr: '5px',
-                //     fill: '#6b7480',
-                // },
                 '&:hover, &:focus': {
                     boxShadow: '0 0 2px 3px #6b748090',
                     outline: 'none',
@@ -46,16 +40,15 @@ const variants = variant({
             },
         },
         get success() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 label: {
-                    // @ts-ignore
-                    ...this.base.label,
+                    ...base.label,
                     color: 'success.default',
                 },
                 input: {
-                    // @ts-ignore
-                    ...this.base.input,
+                    ...base.input,
                     borderColor: 'success.default',
                     color: 'success.default',
                     '&:hover, &:focus': {
@@ -68,16 +61,15 @@ const variants = variant({
             };
         },
         get danger() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 label: {
-                    // @ts-ignore
-                    ...this.base.label,
+                    ...base.label,
                     color: 'danger.default',
                 },
                 input: {
-                    // @ts-ignore
-                    ...this.base.input,
+                    ...base.input,
                     borderColor: 'danger.default',
                     color: 'danger.default',
                     '&:hover, &:focus': {
@@ -100,6 +92,7 @@ const Style: React.FC<InputStyledProps> = styled.div<InputStyledProps>`
 
 const Input: React.FC<InputProps<string>> = ({
     styling = 'base',
+    type = 'text',
     icon,
     placeholder,
     label,
@@ -116,6 +109,7 @@ const Input: React.FC<InputProps<string>> = ({
             name={name}
             id={name}
             value={value}
+            type={type}
             onChange={onChange}
         />
         {error && (

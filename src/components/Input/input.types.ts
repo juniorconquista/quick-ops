@@ -14,6 +14,7 @@ export interface InputProps<Value> extends InputStyledProps {
     label?: string;
     value?: Value;
     error?: string | boolean;
+    type?: string;
     onChange?: (e: ChangeEvent<any>) => void;
     onBlur?: (e: ChangeEvent<any>) => void;
 }

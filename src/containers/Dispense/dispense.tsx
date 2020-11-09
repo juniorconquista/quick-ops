@@ -2,8 +2,9 @@ import React, { memo } from 'react';
 import { Box, H1 } from 'quarks-ui';
 
 import Form from './Form';
+import { DispenseProps } from './dispense.types';
 
-const Dispense: React.FC = () => (
+const Dispense: React.FC<DispenseProps> = (props) => (
     <Box
         styling="column"
         minHeight="439px"
@@ -13,19 +14,19 @@ const Dispense: React.FC = () => (
         mt="24px"
         justifyContent="flex-start"
         alignItems="flex-start"
+        position="relative"
     >
         <H1
             styling="base"
             color="text.contrast"
             fontWeight="bold"
             fontSize={20}
-            mb="12px"
-            p="0px 48px"
-            pt="24px"
+            p={{ mobile: '0px 15px', tablet: '0px 15px', desktop: '0px 48px' }}
+            pt={{ mobile: '15px', tablet: '15px', desktop: '24px' }}
         >
             Nova despesa
         </H1>
-        <Form />
+        <Form handleDispense={props.handleDispense} />
     </Box>
 );
 

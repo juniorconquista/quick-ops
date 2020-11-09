@@ -34,8 +34,9 @@ const variants = variant({
             },
         },
         get success() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 bg: 'success.default',
                 borderColor: 'success.default',
                 color: '#FFFFFF',
@@ -45,15 +46,15 @@ const variants = variant({
                     }) => `0 0 2px 3px ${props.colors.success.default}90`,
                 },
                 svg: {
-                    // @ts-ignore
-                    ...this.base.svg,
+                    ...base.svg,
                     fill: '#FFFFFF',
                 },
             };
         },
         get danger() {
+            const base: { [key: string]: any } = this.base;
             return {
-                ...this.base,
+                ...base,
                 bg: 'danger.default',
                 borderColor: 'danger.default',
                 color: '#FFFFFF',
@@ -63,8 +64,7 @@ const variants = variant({
                     }) => `0 0 2px 3px ${props.colors.danger.default}90`,
                 },
                 svg: {
-                    // @ts-ignore
-                    ...this.base.svg,
+                    ...base.svg,
                     fill: '#FFFFFF',
                 },
             };
@@ -87,6 +87,7 @@ const Button: React.FC<ButtonProps> = ({
     styling = 'base',
     text,
     icon,
+    children,
     ...props
 }) => (
     <Style
@@ -94,6 +95,7 @@ const Button: React.FC<ButtonProps> = ({
         color={props.outline ? `${styling}.default` : '#FFFFFF'}
         {...props}
     >
+        {children}
         {icon}
         {text}
     </Style>

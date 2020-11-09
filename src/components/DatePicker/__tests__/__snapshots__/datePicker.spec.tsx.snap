@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker component basic snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c1 .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.c1 .react-datepicker-wrapper input {
+  height: 36px;
+  border-radius: 6px;
+  color: #6b7480 !important;
+  border: 1px solid;
+  border-color: #dfe2e6;
+  padding: 12px 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: boxShadow .25s ease;
+  transition: boxShadow .25s ease;
+  font-family: Nunito Sans,sans-serif;
+}
+
+.c1 .react-datepicker-wrapper input:hover,
+.c1 .react-datepicker-wrapper input:focus {
+  box-shadow: 0 0 2px 3px #6b748090;
+  outline: none;
+}
+
+.c1 .react-datepicker__current-month,
+.c1 .react-datepicker__day-name,
+.c1 .react-datepicker__day {
+  font-family: Nunito Sans,sans-serif;
+  color: #f8f9fa;
+}
+
+.c1 .react-datepicker__triangle {
+  display: none;
+}
+
+.c1 .react-datepicker__header {
+  background-color: #25262a;
+}
+
+.c1 .react-datepicker__month {
+  background-color: #313438;
+  margin: 0px;
+  padding: 0.4rem;
+  overflow: hidden;
+}
+
+.c1 .react-datepicker__day:hover {
+  background-color: #25262a;
+  color: #f8f9fa;
+}
+
+.c1 .react-datepicker__day--selected {
+  background-color: #51c1c3;
+  color: #FFFF;
+}
+
+.c1 .react-datepicker__day--selected:hover {
+  background-color: #51c1c3;
+  color: #FFFF;
+}
+
+<div
+    class="c0"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="react-datepicker-wrapper"
+      >
+        <div
+          class="react-datepicker__input-container"
+        >
+          <input
+            class=""
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

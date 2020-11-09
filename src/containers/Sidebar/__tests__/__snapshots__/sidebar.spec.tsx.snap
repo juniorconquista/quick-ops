@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar container tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #009d43;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.c4 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  color: #009d43;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 0px;
+  width: 100%;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edfff5;
+  padding: 0px 32px;
+  min-height: 86px;
+  width: 80%;
+  min-width: 250px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #009d43;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c0 {
+  height: 100%;
+}
+
+.c0 .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100vh - 48px);
+  height: 100%;
+  background-color: #25262a;
+  -webkit-transition: right .25s ease;
+  transition: right .25s ease;
+  position: relative;
+}
+
+.c0 .content:focus {
+  outline: none;
+}
+
+.c0 .mobile {
+  top: 48px;
+  right: -350px;
+  position: fixed;
+  width: 350px;
+}
+
+.c0 .mobile.open {
+  right: 0;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="content mobile"
+    >
+      <div
+        class="c1"
+        width="100%"
+      >
+        <div
+          class="c2"
+          width="80%"
+        >
+          <h1
+            class="c3"
+            color="#009d43"
+            font-size="16px"
+          >
+            Status
+          </h1>
+          <h2
+            class="c4"
+            color="#009d43"
+            font-size="20px"
+            font-weight="bold"
+          >
+            Concluído
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
