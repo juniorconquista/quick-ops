@@ -1,5 +1,7 @@
 # Getting Started
 
+<img src="https://github.com/juniorconquista/quick-ops/blob/master/badge.svg">
+
 ## Quick start
 
 Several quick start options are available:
