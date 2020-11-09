@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import ReactDatePicker from 'react-datepicker';
 import { Box, Label, P } from 'quarks-ui';
 import styled from 'styled-components';
-import { color, variant, VariantArgs } from 'styled-system';
+import { variant, VariantArgs } from 'styled-system';
 
 import { DatePickerProps, DatePickerStyledProps } from './datePicker.types';
 
