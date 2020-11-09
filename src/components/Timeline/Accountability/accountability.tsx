@@ -19,6 +19,7 @@ const Accountability: React.FC<Card & any> = (props) => {
             p={{ mobile: '20px', tablet: '20px 30px', desktop: '20px 40px' }}
             alignItems="stretch"
             justifyContent="space-between"
+            data-testid="mocked-accountability-component"
         >
             <Box
                 styling="row"
@@ -50,7 +51,7 @@ const Accountability: React.FC<Card & any> = (props) => {
                         desktop: 'column',
                     }}
                 >
-                    <Icon styling={props.cardType ?? 'base'}>
+                    <Icon styling={props?.cardType ?? 'base'}>
                         <AccountabilityIcon />
                     </Icon>
                     <H2
@@ -58,7 +59,7 @@ const Accountability: React.FC<Card & any> = (props) => {
                         fontSize="13px"
                         ml={{ mobile: '5px', tablet: '0px', desktop: '0px' }}
                     >
-                        {formatDate(props.cardDate)}
+                        {formatDate(props?.cardDate)}
                     </H2>
                 </Box>
                 <Box
@@ -97,7 +98,7 @@ const Accountability: React.FC<Card & any> = (props) => {
                         mb={{ mobile: '0px', tablet: '10px', desktop: '10px' }}
                         mr={{ mobile: '5px', tablet: '0px', desktop: '0px' }}
                     >
-                        {`Solicitação concluída por ${props?.author.name}`}
+                        {`Solicitação concluída por ${props?.author?.name}`}
                     </H2>
                 </Box>
                 {props.status && (

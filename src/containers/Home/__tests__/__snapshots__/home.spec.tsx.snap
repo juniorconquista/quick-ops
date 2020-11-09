@@ -1,0 +1,1294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home container tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c12 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.c28 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #009d43;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.c16 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.c29 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  color: #009d43;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.c3 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #51c1c3;
+}
+
+.c4 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #51c1c3;
+  margin-left: 4px;
+}
+
+.c5 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  margin-left: 4px;
+}
+
+.c17 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  min-height: calc(100vh - 48px);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #202121;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7:focus {
+  outline: none;
+}
+
+.c9 {
+  display: grid;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  min-height: calc(100vh - 48px);
+  width: 100%;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 54px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 30px;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 236px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right,#00d7ce 3%,#00c5fc);
+}
+
+.c11:focus {
+  outline: none;
+}
+
+.c13 {
+  display: grid;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  width: 100%;
+  min-height: 150px;
+}
+
+.c13:focus {
+  outline: none;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+  border-right: solid 1px #fafbfc;
+}
+
+.c14:focus {
+  outline: none;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c15:focus {
+  outline: none;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+  border-right: solid 1px #fafbfc;
+}
+
+.c18:focus {
+  outline: none;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.c19:focus {
+  outline: none;
+}
+
+.c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.c21:focus {
+  outline: none;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.c23:focus {
+  outline: none;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 0px;
+  width: 100%;
+}
+
+.c26:focus {
+  outline: none;
+}
+
+.c27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edfff5;
+  padding: 0px 32px;
+  min-height: 86px;
+  width: 80%;
+  min-width: 250px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #009d43;
+}
+
+.c27:focus {
+  outline: none;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 250px;
+}
+
+.c24:focus {
+  outline: none;
+}
+
+.c6 {
+  margin-right: 15px;
+}
+
+.c6 .toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c6 .toggle:hover .toggle-thumb {
+  border-color: #51c1c3;
+}
+
+.c6 .toggle:focus .toggle-thumb {
+  box-shadow: 0 0 2px 3px #51c1c390;
+}
+
+.c6 .toggle .toggle-track {
+  background: #3d3f47;
+  font-size: 15px;
+  width: 50px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c6 .toggle .toggle-track .toggle-track-check {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  left: 8px;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.c6 .toggle .toggle-track .toggle-track-x {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  right: 10px;
+}
+
+.c6 .toggle .toggle-track .toggle-track-check span,
+.c6 .toggle .toggle-track .toggle-track-x span {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+}
+
+.c6 .toggle .toggle-thumb {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #4d4d4d;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.c6 .toggle input {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.c6 .checked .toggle-track .toggle-track-check {
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.c6 .checked .toggle-track .toggle-track-x {
+  opacity: 0;
+}
+
+.c6 .checked .toggle-thumb {
+  left: 27px;
+}
+
+.c8 {
+  height: 36px;
+  border-radius: 6px;
+  color: #6b7480 !important;
+  border: 1px solid;
+  border-color: #6b7480;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  cursor: pointer;
+  -webkit-transition: boxShadow .25s ease;
+  transition: boxShadow .25s ease;
+  font-family: Nunito Sans,sans-serif;
+  color: #FFFFFF;
+}
+
+.c8 svg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  fill: #6b7480;
+}
+
+.c8:hover,
+.c8:focus {
+  box-shadow: 0 0 2px 3px #6b748090;
+}
+
+.c22 {
+  height: 36px;
+  border-radius: 6px;
+  color: #6b7480 !important;
+  border: 1px solid;
+  border-color: #6b7480;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  cursor: pointer;
+  -webkit-transition: boxShadow .25s ease;
+  transition: boxShadow .25s ease;
+  font-family: Nunito Sans,sans-serif;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.c22 svg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  fill: #6b7480;
+}
+
+.c22:hover,
+.c22:focus {
+  box-shadow: 0 0 2px 3px #6b748090;
+}
+
+.c20 .loading-screen {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: #25262a80;
+}
+
+.c20 .loading-screen .loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.c20 .loading-screen .loading div {
+  position: absolute;
+  border: 4px solid;
+  border-color: #f8f9fa;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.c20 .loading-screen .loading div:nth-child(2) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.c20 .loading div {
+  -webkit-animation: dnpXZJ 1s cubic-bezier(0,0.2,0.8,1) infinite;
+  animation: dnpXZJ 1s cubic-bezier(0,0.2,0.8,1) infinite;
+}
+
+.c25 {
+  height: 100%;
+}
+
+.c25 .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100vh - 48px);
+  height: 100%;
+  background-color: #25262a;
+  -webkit-transition: right .25s ease;
+  transition: right .25s ease;
+  position: relative;
+}
+
+.c25 .content:focus {
+  outline: none;
+}
+
+.c25 .mobile {
+  top: 48px;
+  right: -350px;
+  position: fixed;
+  width: 350px;
+}
+
+.c25 .mobile.open {
+  right: 0;
+}
+
+@media screen and (min-width:0rem) {
+  .c1 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c1 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c1 {
+    padding: 12px 28px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c7 {
+    display: none;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c9 {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c9 {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c9 {
+    grid-template-columns: calc(100% - 350px) 350px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c10 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c10 {
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c10 {
+    padding: 24px 54px;
+  }
+}
+
+@media (max-width:1200px) {
+  .c13 {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width:1200px) {
+  .c14 {
+    border-right: none;
+    border-bottom: solid 1px #fafbfc;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width:1200px) {
+  .c18 {
+    border-right: none;
+    border-bottom: solid 1px #fafbfc;
+    padding: 0px;
+  }
+}
+
+@media (max-width:1200px) {
+  .c19 {
+    border-right: none;
+    padding: 0px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+      height="48px"
+      width="100%"
+    >
+      <div
+        class="c2"
+      >
+        <p
+          class="c3"
+          color="primary.default"
+        >
+          Dashboard /
+        </p>
+        <p
+          class="c4"
+          color="primary.default"
+        >
+          QuickOps
+        </p>
+        <p
+          class="c5"
+        >
+          / Current
+        </p>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="c6"
+        >
+          <button
+            class="toggle checked"
+          >
+            <div
+              class="toggle-track"
+            >
+              <div
+                class="toggle-track-check"
+              >
+                <span
+                  class="toggle_BsTx"
+                >
+                  🌞
+                </span>
+              </div>
+              <div
+                class="toggle-track-x"
+              >
+                <span
+                  class="toggle_BsTx"
+                >
+                  🌜
+                </span>
+              </div>
+            </div>
+            <div
+              class="toggle-thumb"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+          display="[object Object]"
+        >
+          <button
+            class="c8"
+            color="#FFFFFF"
+            type="button"
+          >
+            <svg
+              height="24px"
+              style="margin-right: 0px;"
+              width="24px"
+            >
+              menu.svg
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c9"
+      width="100%"
+    >
+      <div
+        class="c10"
+      >
+        <div
+          class="c11"
+          width="100%"
+        >
+          <h1
+            class="c12"
+            color="#FFF"
+            font-size="20px"
+            font-weight="bold"
+          >
+            -
+          </h1>
+          <div
+            class="c13"
+            width="100%"
+          >
+            <div
+              class="c14"
+              height="100%"
+            >
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Name
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Email
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Justificativa
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Finalidade
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="c18"
+              height="100%"
+            >
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Projeto
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Data
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+            </div>
+            <div
+              class="c19"
+              height="100%"
+            >
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Quantiade
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  -
+                </p>
+              </div>
+              <div
+                class="c15"
+                width="100%"
+              >
+                <h2
+                  class="c16"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="normal"
+                >
+                  Inclui café da manhã
+                </h2>
+                <p
+                  class="c17"
+                  color="#FFF"
+                  font-size="14px"
+                  font-weight="bold"
+                >
+                  Não
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <div
+              class="loading-screen"
+            >
+              <div
+                class="loading"
+              >
+                <div />
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c21"
+          width="100%"
+        >
+          <button
+            class="c22"
+            color="#FFFFFF"
+          >
+            <svg>
+              notepad.svg
+            </svg>
+            Inserir notas em lote
+          </button>
+          <button
+            class="c8"
+            color="#FFFFFF"
+          >
+            <svg>
+              notes.svg
+            </svg>
+            Nova despesa
+          </button>
+        </div>
+        <div
+          class="c23"
+          width="100%"
+        >
+          <div
+            class="c24"
+            height="250px"
+          >
+            <div
+              class="c20"
+            >
+              <div
+                class="loading-screen"
+              >
+                <div
+                  class="loading"
+                >
+                  <div />
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c25"
+      >
+        <div
+          class="content mobile"
+        >
+          <div
+            class="c26"
+            width="100%"
+          >
+            <div
+              class="c27"
+              width="80%"
+            >
+              <h1
+                class="c28"
+                color="#009d43"
+                font-size="16px"
+              >
+                Status
+              </h1>
+              <h2
+                class="c29"
+                color="#009d43"
+                font-size="20px"
+                font-weight="bold"
+              >
+                Concluído
+              </h2>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <div
+              class="loading-screen"
+            >
+              <div
+                class="loading"
+              >
+                <div />
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

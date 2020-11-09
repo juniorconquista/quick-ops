@@ -21,6 +21,7 @@ const Expense: React.FC<Card & any> = (props) => {
             p={{ mobile: '20px', tablet: '20px 30px', desktop: '20px 40px' }}
             alignItems="stretch"
             justifyContent="space-between"
+            data-testid="mocked-expense-component"
         >
             <Box
                 styling="row"

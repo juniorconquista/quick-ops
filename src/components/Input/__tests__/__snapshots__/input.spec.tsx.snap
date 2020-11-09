@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component basic snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+}
+
+.c0 label {
+  margin: 12px 0px;
+  color: #FFFFFF;
+  font-weight: bold;
+  display: block;
+}
+
+.c0 input {
+  height: 36px;
+  border-radius: 6px;
+  color: #6b7480 !important;
+  border: 1px solid;
+  border-color: #dfe2e6;
+  padding: 12px 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: boxShadow .25s ease;
+  transition: boxShadow .25s ease;
+  font-family: Nunito Sans,sans-serif;
+}
+
+.c0 input:hover,
+.c0 input:focus {
+  box-shadow: 0 0 2px 3px #6b748090;
+  outline: none;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      id="test"
+      name="test"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

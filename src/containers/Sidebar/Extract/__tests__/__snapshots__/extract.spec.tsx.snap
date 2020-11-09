@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extract container tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 10px 15px;
+}
+
+.c5 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.c6 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.c8 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.c9 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0px 15px;
+}
+
+.c10 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+.c11 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #4acc82;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+.c7 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #9ea4ac;
+  font-size: 11px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: .6;
+  margin-bottom: 15px;
+  height: 1px;
+  width: 100%;
+  border: solid 1px #dfe2e6;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 15px;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+<div
+    class="c0"
+    width="100%"
+  >
+    <h1
+      class="c1"
+      color="text.contrast"
+      font-size="12px"
+      font-weight="bold"
+    >
+      Extrato
+    </h1>
+    <div
+      class="c2"
+      height="1px"
+      opacity=".6"
+      width="100%"
+    />
+    <div
+      class="c3"
+      width="100%"
+    >
+      <div
+        class="c4"
+      >
+        <h1
+          class="c5"
+          color="text.contrast"
+          font-size="12px"
+          font-weight="normal"
+        >
+          Descrição
+        </h1>
+        <h1
+          class="c6"
+          color="text.contrast"
+          font-size="14px"
+          font-weight="bold"
+        >
+          Despesas declaradas
+        </h1>
+        <p
+          class="c7"
+          color="#9ea4ac"
+          font-size="11px"
+        >
+          Despesas declaradas pelo trooper
+        </p>
+        <h1
+          class="c8"
+          color="text.contrast"
+          font-size="14px"
+          font-weight="bold"
+        >
+          Despesas aprovadas
+        </h1>
+        <p
+          class="c7"
+          color="#9ea4ac"
+          font-size="11px"
+        >
+          Despesas aprovadas pelo financeiro
+        </p>
+        <h1
+          class="c8"
+          color="text.contrast"
+          font-size="14px"
+          font-weight="bold"
+        >
+          Pagamento realizado
+        </h1>
+        <p
+          class="c7"
+          color="#9ea4ac"
+          font-size="11px"
+        >
+          Pagamento realizado pelo financeiro
+        </p>
+      </div>
+      <div
+        class="c4"
+      >
+        <h1
+          class="c9"
+          color="text.contrast"
+          font-size="12px"
+          font-weight="normal"
+        >
+          Valor
+        </h1>
+        <h1
+          class="c6"
+          color="text.contrast"
+          font-size="14px"
+          font-weight="bold"
+        >
+          R$ 10
+        </h1>
+        <h1
+          class="c10"
+          color="text.contrast"
+          font-size="14px"
+          font-weight="bold"
+        >
+          R$ 20
+        </h1>
+        <h1
+          class="c11"
+          color="#4acc82"
+          font-size="14px"
+          font-weight="bold"
+        >
+          R$ 20
+        </h1>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

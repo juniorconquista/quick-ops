@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status component basic snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 24px;
+  border-radius: 18px;
+  border: 1px solid #6b7480;
+  color: #6b7480;
+  font-size: 12px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f0f3f7;
+  padding: 0px 20px;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

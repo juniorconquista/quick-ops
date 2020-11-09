@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header container tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.c5 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.c6 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 30px;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 236px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right,#00d7ce 3%,#00c5fc);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c2 {
+  display: grid;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  width: 100%;
+  min-height: 150px;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+  border-right: solid 1px #fafbfc;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+  border-right: solid 1px #fafbfc;
+}
+
+.c7:focus {
+  outline: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+@media (max-width:1200px) {
+  .c2 {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width:1200px) {
+  .c3 {
+    border-right: none;
+    border-bottom: solid 1px #fafbfc;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width:1200px) {
+  .c7 {
+    border-right: none;
+    border-bottom: solid 1px #fafbfc;
+    padding: 0px;
+  }
+}
+
+@media (max-width:1200px) {
+  .c8 {
+    border-right: none;
+    padding: 0px;
+  }
+}
+
+<div
+    class="c0"
+    width="100%"
+  >
+    <h1
+      class="c1"
+      color="#FFF"
+      font-size="20px"
+      font-weight="bold"
+    >
+      -
+    </h1>
+    <div
+      class="c2"
+      width="100%"
+    >
+      <div
+        class="c3"
+        height="100%"
+      >
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Name
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Email
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Justificativa
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Finalidade
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+      </div>
+      <div
+        class="c7"
+        height="100%"
+      >
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Projeto
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Data
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+      </div>
+      <div
+        class="c8"
+        height="100%"
+      >
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Quantiade
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            -
+          </p>
+        </div>
+        <div
+          class="c4"
+          width="100%"
+        >
+          <h2
+            class="c5"
+            color="#FFF"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Inclui café da manhã
+          </h2>
+          <p
+            class="c6"
+            color="#FFF"
+            font-size="14px"
+            font-weight="bold"
+          >
+            Não
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
