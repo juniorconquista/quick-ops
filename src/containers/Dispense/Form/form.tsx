@@ -156,10 +156,10 @@ const Dispense: React.FC<FormProps> = (props) => {
                                         form: { setFieldValue },
                                         meta,
                                     }: FieldProps) => {
-                                        //@ts-ignore
                                         const error =
                                             meta.touched &&
                                             meta.error &&
+                                            //@ts-ignore
                                             meta.error.value;
                                         return (
                                             <Select
@@ -189,10 +189,10 @@ const Dispense: React.FC<FormProps> = (props) => {
                                         form: { setFieldValue },
                                         meta,
                                     }: FieldProps) => {
-                                        //@ts-ignore
                                         const error =
                                             meta.touched &&
                                             meta.error &&
+                                            //@ts-ignore
                                             meta.error.value;
                                         return (
                                             <Select
