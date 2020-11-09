@@ -24,6 +24,11 @@ Installing the dependencies witch `npm`, in the project directory, you can run
 npm i
 ```
 
+### Features created 
+
+* Dark mode theme implementation
+* Use of the lib [Quarks UI](https://juniorconquista.github.io/quarks-ui/) created by me for the development of applications initially React.
+
 ### Available Scripts
 
 In the project directory, you can run:
