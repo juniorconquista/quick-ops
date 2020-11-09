@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Evaluation component tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c6 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.c9 {
+  color: #f8f9fa;
+  font-size: 2rem;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.c4 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-size: 13px;
+}
+
+.c7 {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  margin-bottom: 24px;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 154px;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11:focus {
+  outline: none;
+}
+
+.c3 {
+  height: 59px;
+  width: 59px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f0f3f7;
+  margin-bottom: 10px;
+}
+
+.c3 svg {
+  height: 25px;
+  width: 25px;
+  fill: #6b7480;
+}
+
+.c10 {
+  height: 24px;
+  border-radius: 18px;
+  border: 1px solid #6b7480;
+  color: #6b7480;
+  font-size: 12px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f0f3f7;
+  padding: 0px 20px;
+}
+
+@media screen and (min-width:0rem) {
+  .c6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c6 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c6 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c6 {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c6 {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c6 {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c4 {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c4 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c4 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c7 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c7 {
+    font-size: 20x;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c7 {
+    font-size: 20x;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c7 {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c7 {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c7 {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c0 {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c0 {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c0 {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:1250px) {
+  .c1 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c2 {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c2 {
+    margin-right: 40px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c2 {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:0rem) {
+  .c5 {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c5 {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c5 {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c5 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c5 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="mocked-evaluation-component"
+    width="100%"
+  >
+    <div
+      class="c1"
+      width="70%"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <svg>
+            group.svg
+          </svg>
+        </div>
+        <h2
+          class="c4"
+          font-size="13px"
+        >
+          09/11/2020
+        </h2>
+      </div>
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6"
+          font-size="[object Object]"
+          font-weight="bold"
+        >
+          TIPO
+        </h1>
+        <h2
+          class="c7"
+          color="text.contrast"
+          font-size="[object Object]"
+          font-weight="bold"
+        >
+          Aprovação da Solicitação -
+        </h2>
+      </div>
+      <div
+        class="c8"
+      >
+        <h1
+          class="c9"
+          font-size="11px"
+          font-weight="bold"
+        >
+          STATUS
+        </h1>
+        <div
+          class="c10"
+        />
+      </div>
+    </div>
+    <div
+      class="c11"
+    >
+      <p
+        class=""
+      >
+        Ver aprovações
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

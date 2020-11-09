@@ -9,10 +9,11 @@ import { HeaderResponse } from './header.types';
 import Item from './Item';
 
 const Header: React.FC = () => {
-    const getHeader = (): Promise<HeaderResponse> =>
-        fetch(`${process.env.REACT_APP_API_URL}/header`, {
+    const getHeader = (): Promise<HeaderResponse> => {
+        return fetch(`${process.env.REACT_APP_API_URL}/header`, {
             headers,
         }).then((response) => response.json());
+    };
 
     const { execute, status, value } = useAsync<HeaderResponse>(
         getHeader,
@@ -39,7 +40,7 @@ const Header: React.FC = () => {
             })}
         >
             <H1 styling="base" fontWeight="bold" fontSize="20px" color="#FFF">
-                {value?.project.title ?? '-'}
+                {value?.project?.title ?? '-'}
             </H1>
             <Box
                 styling="grid"
@@ -68,11 +69,11 @@ const Header: React.FC = () => {
                 >
                     <Item
                         title="Name"
-                        description={value?.collaborator.name ?? '-'}
+                        description={value?.collaborator?.name ?? '-'}
                     />
                     <Item
                         title="Email"
-                        description={value?.collaborator.email ?? '-'}
+                        description={value?.collaborator?.email ?? '-'}
                     />
                     <Item
                         title="Justificativa"
@@ -96,7 +97,7 @@ const Header: React.FC = () => {
                         },
                     })}
                 >
-                    {value?.costCenters.map((costCenter) => (
+                    {value?.costCenters?.map((costCenter) => (
                         <Item
                             key={costCenter.id}
                             title="Centro de custo"
@@ -105,12 +106,12 @@ const Header: React.FC = () => {
                     ))}
                     <Item
                         title="Projeto"
-                        description={value?.project.title ?? '-'}
+                        description={value?.project?.title ?? '-'}
                     />
                     <Item
                         title="Data"
                         description={
-                            value?.accountabilityExtraInfo.eventDate ?? '-'
+                            value?.accountabilityExtraInfo?.eventDate ?? '-'
                         }
                     />
                 </Box>
@@ -128,13 +129,14 @@ const Header: React.FC = () => {
                     <Item
                         title="Quantiade"
                         description={`${
-                            value?.accountabilityExtraInfo.amountOfPeople ?? '-'
+                            value?.accountabilityExtraInfo?.amountOfPeople ??
+                            '-'
                         }`}
                     />
                     <Item
                         title="Inclui café da manhã"
                         description={`${
-                            value?.accountabilityExtraInfo.budgetForBreakfast
+                            value?.accountabilityExtraInfo?.budgetForBreakfast
                                 ? 'Sim'
                                 : 'Não'
                         }`}

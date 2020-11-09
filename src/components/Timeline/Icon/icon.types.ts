@@ -5,6 +5,7 @@ export type IconStyledProps = {
     styling?:
         | 'base'
         | 'hotel-fee'
+        | 'food'
         | 'EVALUATION'
         | 'ACCOUNTABILITY_SUBMITTED'
         | 'ACCOUNTABILITY_CREATED';

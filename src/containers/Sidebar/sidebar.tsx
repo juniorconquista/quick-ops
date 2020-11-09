@@ -86,7 +86,7 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
             >
                 <Box styling="column" p="40px 0px" width="100%">
                     <Status />
-                    {value?.content.map((account, index) => (
+                    {value?.content?.map((account, index) => (
                         <Box
                             key={`${account.updatedOn} - ${index}`}
                             styling="column"

@@ -23,7 +23,7 @@ const Timeline: React.FC = () => {
 
     return (
         <Box styling="column" width="100%" mt="24px">
-            {value?.content.map((card) => {
+            {value?.content?.map((card) => {
                 const CardComponent = handlerFactory(card.cardType as CARDTYPE);
                 return <CardComponent key={card.id} {...card} />;
             })}

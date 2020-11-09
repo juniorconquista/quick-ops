@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline handleFactory component tests basic snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jrAGrp dMwTaT"
+    data-testid="mocked-expense-component"
+    width="100%"
+  >
+    <div
+      class="sc-jrAGrp kUajXv"
+      width="70%"
+    >
+      <div
+        class="sc-jrAGrp kBxLey"
+      >
+        <div
+          class="sc-kEjbxe MOhQA"
+        >
+          <svg>
+            asterisk.svg
+          </svg>
+        </div>
+        <h2
+          class="sc-gsTCUz egnVlF"
+          font-size="13px"
+        >
+          09/11/2020
+        </h2>
+      </div>
+      <div
+        class="sc-jrAGrp LSnzq"
+        width="100%"
+      >
+        <div
+          class="sc-jrAGrp cALEOf"
+        >
+          <h1
+            class="sc-bdfBwQ cUfASn"
+            font-size="[object Object]"
+            font-weight="bold"
+          >
+            TIPO
+          </h1>
+          <h2
+            class="sc-gsTCUz kPNLYl"
+            color="text.contrast"
+            font-size="[object Object]"
+            font-weight="bold"
+          />
+          <p
+            class="sc-iBPRYJ ldYJBv"
+            font-size="14px"
+          />
+        </div>
+        <div
+          class="sc-jrAGrp FaEaB"
+        >
+          <h1
+            class="sc-bdfBwQ cUfASn"
+            font-size="[object Object]"
+            font-weight="bold"
+          >
+            VALOR
+          </h1>
+          <h2
+            class="sc-gsTCUz kPNLYl"
+            color="text.contrast"
+            font-size="[object Object]"
+            font-weight="bold"
+          >
+            undefined undefined
+          </h2>
+          <p
+            class="sc-iBPRYJ ldYJBv"
+            font-size="14px"
+          >
+            Valor da nota: undefined undefined
+          </p>
+        </div>
+        <div
+          class="sc-jrAGrp eLbUUM"
+        >
+          <h1
+            class="sc-bdfBwQ czsznJ"
+            font-size="11px"
+            font-weight="bold"
+          >
+            STATUS
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-jrAGrp isxMhl"
+    >
+      <p
+        class="sc-iBPRYJ ejhUdQ"
+      >
+         Ver nota fiscal
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

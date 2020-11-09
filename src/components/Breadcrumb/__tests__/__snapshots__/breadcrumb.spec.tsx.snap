@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component tests basic snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #51c1c3;
+}
+
+.c3 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  color: #51c1c3;
+  margin-left: 4px;
+}
+
+.c4 {
+  color: #f8f9fa;
+  font-size: 1rem;
+  margin-left: 4px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #202121;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6:focus {
+  outline: none;
+}
+
+.c5 {
+  margin-right: 15px;
+}
+
+.c5 .toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c5 .toggle:hover .toggle-thumb {
+  border-color: #51c1c3;
+}
+
+.c5 .toggle:focus .toggle-thumb {
+  box-shadow: 0 0 2px 3px #51c1c390;
+}
+
+.c5 .toggle .toggle-track {
+  background: #3d3f47;
+  font-size: 15px;
+  width: 50px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c5 .toggle .toggle-track .toggle-track-check {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  left: 8px;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.c5 .toggle .toggle-track .toggle-track-x {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  right: 10px;
+}
+
+.c5 .toggle .toggle-track .toggle-track-check span,
+.c5 .toggle .toggle-track .toggle-track-x span {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+}
+
+.c5 .toggle .toggle-thumb {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #4d4d4d;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.c5 .toggle input {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.c5 .checked .toggle-track .toggle-track-check {
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.c5 .checked .toggle-track .toggle-track-x {
+  opacity: 0;
+}
+
+.c5 .checked .toggle-thumb {
+  left: 27px;
+}
+
+.c7 {
+  height: 36px;
+  border-radius: 6px;
+  color: #6b7480 !important;
+  border: 1px solid;
+  border-color: #6b7480;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #25262a;
+  cursor: pointer;
+  -webkit-transition: boxShadow .25s ease;
+  transition: boxShadow .25s ease;
+  font-family: Nunito Sans,sans-serif;
+  color: #FFFFFF;
+}
+
+.c7 svg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  fill: #6b7480;
+}
+
+.c7:hover,
+.c7:focus {
+  box-shadow: 0 0 2px 3px #6b748090;
+}
+
+@media screen and (min-width:0rem) {
+  .c0 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c0 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c0 {
+    padding: 12px 28px;
+  }
+}
+
+@media screen and (min-width:37.5rem) {
+  .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:62rem) {
+  .c6 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    height="48px"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="c2"
+        color="primary.default"
+      >
+        Dashboard /
+      </p>
+      <p
+        class="c3"
+        color="primary.default"
+      >
+        QuickOps
+      </p>
+      <p
+        class="c4"
+      >
+        / Current
+      </p>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c5"
+      >
+        <button
+          class="toggle checked"
+        >
+          <div
+            class="toggle-track"
+          >
+            <div
+              class="toggle-track-check"
+            >
+              <span
+                class="toggle_BsTx"
+              >
+                🌞
+              </span>
+            </div>
+            <div
+              class="toggle-track-x"
+            >
+              <span
+                class="toggle_BsTx"
+              >
+                🌜
+              </span>
+            </div>
+          </div>
+          <div
+            class="toggle-thumb"
+          />
+        </button>
+      </div>
+      <div
+        class="c6"
+        display="[object Object]"
+      >
+        <button
+          class="c7"
+          color="#FFFFFF"
+          type="button"
+        >
+          <svg
+            height="24px"
+            style="margin-right: 0px;"
+            width="24px"
+          >
+            menu.svg
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

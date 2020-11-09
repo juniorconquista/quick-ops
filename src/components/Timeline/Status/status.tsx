@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { variant, VariantArgs } from 'styled-system';
 import styled from 'styled-components';
 
-import { IconStyledProps } from './status.types';
+import { StatusStyledProps } from './status.types';
 
 const variants = variant({
     prop: 'styling',
@@ -47,8 +47,8 @@ const variants = variant({
     },
 } as VariantArgs);
 
-const Icon: React.FC<IconStyledProps> = styled.div<IconStyledProps>`
+const Status: React.FC<StatusStyledProps> = styled.div<StatusStyledProps>`
     ${variants}
 `;
 
-export default memo(Icon);
+export default memo(Status);

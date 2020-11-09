@@ -17,24 +17,22 @@ export type Card = {
         | 'EVALUATION'
         | 'ACCOUNTABILITY_SUBMITTED'
         | 'ACCOUNTABILITY_CREATED';
-    currencyCode: string;
-    currencyId: number;
     currencySymbol: string;
-    expenseEvaluation?: number;
-    expenseId: number;
+    // expenseEvaluation?: number;
+    // expenseId: number;
     expenseTypeCode:
         | 'hotel-fee'
         | 'EVALUATION'
         | 'ACCOUNTABILITY_SUBMITTED'
         | 'ACCOUNTABILITY_CREATED';
     expenseTypeIcon: string;
-    expenseTypeId: number;
+    // expenseTypeId: number;
     id: number;
-    invoiceDate: number;
+    // invoiceDate: number;
     notes: string;
-    resourceUrl: string;
+    // resourceUrl: string;
     status?: 'base' | 'PENDING' | 'APPROVED';
-    updatedOn: number;
+    // updatedOn: number;
 };
 
 export interface TimelineProps {
