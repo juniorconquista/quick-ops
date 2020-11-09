@@ -1,23 +1,29 @@
-# Getting Started 
-
+# Getting Started
 
 ## Quick start
+
 Several quick start options are available:
 
 Clone the repo:
+
 ```
 git clone https://github.com/juniorconquista/quarks-ui.git
 ```
- Installing the dependencies witch `yarn`, in the project directory, you can run:
+
+Installing the dependencies witch `yarn`, in the project directory, you can run:
+
 ```
-yarn 
+yarn
 ```
+
 Installing the dependencies witch `npm`, in the project directory, you can run
+
 ```
 npm i
 ```
 
 ### Available Scripts
+
 In the project directory, you can run:
 
 ### `yarn start`
