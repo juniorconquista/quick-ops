@@ -181,10 +181,9 @@ const Select: React.FC<SelectProps> = ({
     <Box styling="column" width="100%" alignItems="flex-start">
         {label && (
             <Label
-                // htmlFor={name}
                 m="12px 0px"
                 fontWeight="bold"
-                color="text.contrast"
+                color={error ? 'danger.default' : 'text.contrast'}
             >
                 {label}
             </Label>

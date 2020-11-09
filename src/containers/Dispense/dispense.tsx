@@ -2,8 +2,9 @@ import React, { memo } from 'react';
 import { Box, H1 } from 'quarks-ui';
 
 import Form from './Form';
+import { DispenseProps } from './dispense.types';
 
-const Dispense: React.FC = () => (
+const Dispense: React.FC<DispenseProps> = (props) => (
     <Box
         styling="column"
         minHeight="439px"
@@ -24,7 +25,7 @@ const Dispense: React.FC = () => (
         >
             Nova despesa
         </H1>
-        <Form />
+        <Form handleDispense={props.handleDispense} />
     </Box>
 );
 
