@@ -1,9 +1,23 @@
-# Getting Started with Create React App
+# Getting Started 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Quick start
+Several quick start options are available:
 
+Clone the repo:
+```
+git clone https://github.com/juniorconquista/quarks-ui.git
+```
+ Installing the dependencies witch `yarn`, in the project directory, you can run:
+```
+yarn 
+```
+Installing the dependencies witch `npm`, in the project directory, you can run
+```
+npm i
+```
+
+### Available Scripts
 In the project directory, you can run:
 
 ### `yarn start`
@@ -18,6 +32,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn test:coverage`
+
+Generates the application test coverage report
 
 ### `yarn build`
 
@@ -44,3 +62,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
